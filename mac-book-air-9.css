@@ -1,0 +1,247 @@
+.icon-16 {
+  width: 40px;
+  height: 40.7px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.nill {
+  margin: 0;
+  width: 556px;
+  font-size: inherit;
+  font-family: inherit;
+  max-width: 100%;
+}
+.from2,
+.nill,
+.subject-task1,
+.venue4 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+}
+.venue4 {
+  width: 187px;
+}
+.from2,
+.subject-task1 {
+  height: 35px;
+  flex-shrink: 0;
+}
+.subject-task1 {
+  align-self: stretch;
+}
+.from2 {
+  width: 201.5px;
+}
+.subject-task-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-30xl);
+}
+.till2 {
+  width: 201.5px;
+  height: 35px;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-parent16,
+.venue-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent16 {
+  align-self: stretch;
+  gap: var(--gap-25xl);
+}
+.venue-group {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 284px;
+  gap: var(--gap-42xl);
+}
+.frame-child13 {
+  position: absolute;
+  top: 0;
+  left: 201.5px;
+  width: 2.5px;
+  height: 321px;
+  object-fit: contain;
+  z-index: 1;
+}
+.nill1,
+.nill2,
+.nill3,
+.nill4 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.nill2,
+.nill3,
+.nill4 {
+  height: 35px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.nill-parent1 {
+  align-self: stretch;
+  gap: var(--gap-25xl);
+}
+.nill-container,
+.nill-group,
+.nill-parent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nill-container {
+  align-self: stretch;
+  gap: var(--gap-30xl);
+}
+.nill-group {
+  position: absolute;
+  top: 33px;
+  left: 281px;
+  width: 187px;
+  gap: var(--gap-41xl);
+}
+.frame-parent15 {
+  height: 321px;
+  width: 468px;
+  position: relative;
+  max-width: 100%;
+}
+.academic-year-nill {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.academic-year-nill-wrapper {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.frame-parent14,
+.frame-wrapper7 {
+  flex-direction: row;
+  max-width: 100%;
+}
+.frame-parent14 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper7 {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.frame-wrapper7,
+.macbook-air-9,
+.macbook-air-9-inner,
+.nill-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nill-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-81xl);
+  max-width: 100%;
+}
+.macbook-air-9,
+.macbook-air-9-inner {
+  box-sizing: border-box;
+}
+.macbook-air-9-inner {
+  width: 1232px;
+  flex-direction: row;
+  padding: 0 23px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-cornflowerblue-100);
+  font-family: var(--font-inter);
+}
+.macbook-air-9 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-lightblue);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-mini) 250px;
+  gap: 88.3px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .nill-parent {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .nill {
+    font-size: var(--font-size-13xl);
+    line-height: 16px;
+  }
+  .frame-parent14 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .nill-parent {
+    gap: var(--gap-6xl);
+  }
+  .macbook-air-9 {
+    gap: var(--gap-25xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .nill {
+    font-size: var(--font-size-5xl);
+    line-height: 12px;
+  }
+  .from2,
+  .nill1,
+  .nill2,
+  .nill3,
+  .nill4,
+  .subject-task1,
+  .till2,
+  .venue4 {
+    font-size: var(--font-size-lgi);
+    line-height: 16px;
+  }
+  .academic-year-nill {
+    font-size: var(--font-size-base);
+    line-height: 16px;
+  }
+  .macbook-air-9 {
+    gap: var(--gap-3xl);
+  }
+}

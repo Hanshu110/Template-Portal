@@ -1,0 +1,314 @@
+.icon-15 {
+  width: 56px;
+  height: 57px;
+  position: relative;
+  object-fit: cover;
+}
+.cancellation-of-task {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.frame-child12 {
+  height: 4px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.cancellation-heading,
+.cancellation-heading-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cancellation-heading-inner {
+  width: 918px;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.cancellation-heading {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 12.5px;
+}
+.reason-for-cancellation {
+  margin: 0;
+  width: 886px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 191%;
+}
+.reason-label {
+  width: 464px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.comment-1-icon {
+  height: 67px;
+  width: 115px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.reason-field {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+  max-width: 100%;
+}
+.expand-button-child {
+  align-self: stretch;
+  width: 599px;
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.expand-input-1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.expand-button,
+.expand-input {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.expand-button {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.expand-input {
+  width: 607px;
+  height: 270px;
+  padding: 0 var(--padding-9xs);
+}
+.cancellation-reason,
+.expand-input,
+.reason-input {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.reason-input {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-smi);
+}
+.cancellation-reason {
+  width: 904px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.cancellation-title {
+  flex: 1;
+  flex-direction: column;
+  gap: 28.5px;
+}
+.cancellation-content,
+.cancellation-form,
+.cancellation-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cancellation-content {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 13px;
+  box-sizing: border-box;
+}
+.cancellation-form {
+  width: 1237px;
+  flex-direction: column;
+  gap: 64px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: #ffa049;
+  font-family: var(--font-inter);
+}
+.clear-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-forestgreen);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.confirm1 {
+  position: absolute;
+  top: 18px;
+  left: 32px;
+  font-size: var(--font-size-xl);
+  line-height: 20px;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  width: 97px;
+  height: 20px;
+  z-index: 1;
+}
+.buttons,
+.buttons-child {
+  height: 59px;
+  position: relative;
+}
+.buttons {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+  min-width: 96px;
+}
+.buttons-child {
+  width: 148px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-dimgray);
+  display: none;
+}
+.clear1 {
+  width: 97px;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.buttons1 {
+  flex: 0.9595;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-dimgray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-lg) var(--padding-10xs) var(--padding-2xl);
+  box-sizing: border-box;
+  min-width: 96px;
+}
+.actions1,
+.button-container,
+.macbook-air-10 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button-container {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.actions1,
+.macbook-air-10 {
+  box-sizing: border-box;
+}
+.actions1 {
+  width: 434px;
+  flex-direction: row;
+  padding: 0 49px;
+  max-width: 100%;
+}
+.macbook-air-10 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-lightblue);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-7xs) var(--padding-mini) var(--padding-45xl);
+  gap: 138px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .cancellation-of-task,
+  .reason-for-cancellation {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .reason-field {
+    flex-wrap: wrap;
+  }
+  .cancellation-form {
+    gap: 32px;
+  }
+  .macbook-air-10 {
+    gap: var(--gap-50xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .cancellation-of-task,
+  .reason-for-cancellation {
+    font-size: var(--font-size-5xl);
+  }
+  .cancellation-form {
+    gap: var(--gap-base);
+  }
+  .confirm1 {
+    font-size: var(--font-size-base);
+    line-height: 16px;
+  }
+  .buttons {
+    flex: 1;
+  }
+  .clear1 {
+    font-size: var(--font-size-base);
+    line-height: 16px;
+  }
+  .buttons1 {
+    flex: 1;
+  }
+  .button-container {
+    flex-wrap: wrap;
+    gap: var(--gap-xl);
+  }
+  .actions1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .macbook-air-10 {
+    gap: var(--gap-15xl);
+  }
+}

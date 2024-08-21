@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="macbook-air-6">
+      <header class="topbar">
+        <div class="navbar">
+          <div class="navbar-menu">
+            <img
+              class="navbar-separator-icon"
+              loading="lazy"
+              alt=""
+              src="./public/line-3.svg"
+            />
+
+            <div class="navbar-actions">
+              <div class="account-menu">
+                <a href="mac-book-air-5.html" class="home" id="homeText">Home</a>
+              </div>
+              <div class="create-new-task">Create New Task</div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-separator"></div>
+      </header>
+      <div class="schedule-menu">
+        <a class="new-schedule">New Schedule</a>
+      </div>
+      <section class="content">
+        <div class="main-panel">
+          <div class="form-panel">
+            <div class="form-fields">
+              <div class="batch-id-field">
+                <div class="batch-id-label">
+                  <b class="batch-id">Batch Id</b>
+                </div>
+                <input type="text" class="batch-id-input" />
+                
+              </div>
+              <div class="start-date-parent">
+                <b class="start-date">Start Date</b>
+                <div class="rectangle-parent">
+                  <div class="frame-child"></div>
+                  <input type="date" class="start-date-input" />
+                </div>
+              </div>
+            </div>
+            <div class="assignees-field">
+              <div class="assignees-labels">
+                <div class="assignees-wrapper">
+                  <b class="assignees">Assignees</b>
+                </div>
+                <select class="assignees-input">
+                  <option value=""></option>
+                  <option value="assignee1">Assignee 1</option>
+                  <option value="assignee2">Assignee 2</option>
+                  
+                </select>
+              </div>
+              <div class="start-time-parent">
+                <b class="start-time">Start Time</b>
+                <div class="rectangle-group">
+                  <div class="frame-item"></div>
+                  <input type="time" class="start-time-input" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="task-venue-field">
+            <div class="task-venue-labels">
+              <div class="task-venue-pair">
+                <div class="task-venue-names">
+                  <b class="task">Task</b>
+                </div>
+                <input type="text" class="task-venue-inputs" />
+              </div>
+              <div class="period-field">
+                <div class="period-label">
+                  <div class="period-name">
+                    <b class="period">Period</b>
+                    <b class="period1">Period</b>
+                  </div>
+                </div>
+                <select class="period-input">
+                  <option value=""></option>
+                  <option value="period1">Period 1</option>
+                  <option value="period2">Period 2</option>
+                  <!-- Add more options as needed -->
+                </select>
+              </div>
+              <div class="task-venue-pair1">
+                <div class="venue-wrapper">
+                  <b class="venue">
+                    <p class="venue1">Venue</p>
+                  </b>
+                </div>
+                <input type="text" class="task-venue-pair-child" />
+              </div>
+            </div>
+            <div class="date-time-fields">
+              <div class="date-time-labels">
+                <b class="end-date">End Date</b>
+                <div class="date-time-inputs">
+                  <div class="date-time-inputs-child"></div>
+                  <input type="date" class="start-date-input" />
+                </div>
+              </div>
+              <div class="date-time-labels1">
+                <b class="end-time">End Time</b>
+                <div class="rectangle-container">
+                  <div class="frame-inner"></div>
+                  <input type="time" class="start-time-input" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="actions">
+        <div class="action-buttons">
+          <div class="actions-pair">
+            <div class="actions-secondary" id="actionsSecondary"></div>
+            <a href="mac-book-air-5.html" style="text-decoration: none; color:white;"><b class="confirm">Confirm</b></a>
+          </div>
+          <div class="actions-pair1">
+            <div class="actions-pair-child"></div>
+            <a href="index.html" style="text-decoration: none; color:white;"><b class="clear">Clear</b></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "mac-book-air-1.html";
+        });
+      }
+      
+      var actionsSecondary = document.getElementById("actionsSecondary");
+      if (actionsSecondary) {
+        actionsSecondary.addEventListener("click", function (e) {
+          window.location.href = "mac-book-air-1.html";
+        });
+      }
+      </script> -->
+  </body>
+</html>
